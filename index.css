@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.container {
+    width:100%;
+    height:95%vh;
+    
+
+}
+
+                    /* menu-bar start */
+.menu-bar {
+   text-align: right;
+   color: black;
+   font-size: 12px;
+   padding: 10px 60px 0px 0px;
+
+}
+.menu-bar ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+.menu-bar ul li {
+    padding: 5px 15px;
+
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+    background-color:lime;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+                        
+/* menu-bar end */
+
+    
+/*  section start */
+section {
+    width:100%;
+    height: 60vh;
+   
+}
+
+.half-width {
+    width: 40%;
+    height: 80%;
+    float: left;
+    margin: 3%;
+    padding: 1%;
+
+}
+.line-hight {
+    line-height:15px;
+    
+} 
+.font-size {
+    font-size: 3em;
+ 
+}
+.header-hightlight {
+    color: lime;
+    font-size: 2em;
+
+}
+p {
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.half-width img {
+     width: 100%;
+     height: 25%;
+    
+}
+.half-width .img-height {
+   width: 330px;
+   height: 330px;
+}
+.half-width a {
+    text-decoration: none;
+    background-color: lime;
+    margin: 8px 15px;
+    padding: 10px 30px;
+    border-radius: 5px;
+
+}
+
+/* section end */
+/* lower part start */
+.section-third
+{
+    background-color: rgb(241, 238, 238);
+    width: 100%;
+    height: 85vh;
+}  
+.header-part {
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 50px;
+}  
+#color-lime {
+    color: lime;
+}
+.three-div {
+    width: 90%;
+    height:80vh;
+    margin: auto;
+    padding-left: 80px;
+    
+   
+   
+
+}
+ .div-container {
+    width: 25%;
+    height: 35vh;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    float: left;
+    line-height: 15px;
+    box-shadow: 5px 5px 20px rgb(207, 205, 205);
+}
+.img-tag img {
+    width: 220px;
+    height: 120px;
+    margin: 5px;
+
+}
+
+
+
+/* lower part start */
