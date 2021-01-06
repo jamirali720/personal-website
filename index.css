@@ -8,6 +8,7 @@ body {
 .container {
     width:100%;
     height:95%vh;
+ 
     
 
 }
@@ -42,7 +43,7 @@ body {
 /*  section start */
 section {
     width:100%;
-    height: 60vh;
+    height: 50vh;
    
 }
 
@@ -91,12 +92,13 @@ p {
 }
 
 /* section end */
+
 /* lower part start */
 .section-third
 {
     background-color: rgb(241, 238, 238);
     width: 100%;
-    height: 75vh;
+    height: 70vh;
 }  
 .header-part {
     font-size: 1.2em;
@@ -116,6 +118,9 @@ p {
    
 
 }
+#header-two {
+    padding: 2px;
+}
  .div-container {
     width: 25%;
     height: 35vh;
@@ -127,57 +132,87 @@ p {
     box-shadow: 5px 5px 20px rgb(207, 205, 205);
 }
 .img-tag img {
-    width: 220px;
-    height: 120px;
+    width: 270px;
+    height: 170px;
     margin: 5px;
 
 }
 
-/* lower part start */
+/* lower part end */
 
 
-/*bannar part start*/
-.bannar-container {
-    width:100%;
-    height:auto;
-    position: relative;
-    
+/*bannar part start*/  
+
+.bannar-container-maindiv {
+    width: 100%;
+    height:38vh;
 
 }
+.bannar-container {
+    width: 100%;
+    height: 38vh;
+    position: relative;
+
+}
+
 .bannar-container img {
-    width: 62%;
-    height: 150px;
-    padding-bottom: 50px;
+    width: 750px;
+    height:230px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,30%);
-    
-
-
+    transform: translate(37% ,30%);
+    margin:0 auto;
 }
 .btn {
-    border: none;
-    background-color: lime;
-    margin: 12px 16px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(140px, 105px);
     outline: none;
-
+    background: lime;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+    position: absolute;
+    top: 152px;
+    left: 825px;
 }
 .btn:hover {
     cursor: text;
 }
-.bannar-container #inquiry {
+#inquiry {
     font-size: 2.5em;
-    position: absolute;
-    transform: translate(245px, 85px );
     color: white;
+    position: absolute;
+    top: 135px;
+    left: 350px 
 }
-/*bannar part end*/
+/*bannar part end*/  
+/* icon and footer part start*/  
+.last-div {
+    width: 100%;
+    height: 80vh;
 
+}
+.connected {
+    text-align: center;
+    color: pink;
+
+}
+#footer-image img{
+    width: 35px;
+    margin: 10px 16px;
+    
+}
+#footer-image { 
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#black {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+/* icon and footer part end*/  
