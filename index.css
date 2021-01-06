@@ -135,6 +135,8 @@ p {
 
 /* lower part start */
 
+
+/*bannar part start*/
 .bannar-container {
     width:100%;
     height:auto;
@@ -177,5 +179,5 @@ p {
     transform: translate(245px, 85px );
     color: white;
 }
-
+/*bannar part end*/
 
