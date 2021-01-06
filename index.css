@@ -210,9 +210,29 @@ p {
 #black {
     color: black;
     font-weight: bold;
+    
+    
 }
-
-
-
-
+/* icon -link start */
+.icon-link {
+    width: 80%;
+    height: 50px;
+    background-color: limegreen;
+    margin: 0 auto;
+    
+}
+.icon-link ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+.icon-link ul a {
+text-decoration: none;
+font-size: 1.5rem;
+margin: 6px 8px;
+padding: 7px 12px;
+}
 /* icon and footer part end*/  
